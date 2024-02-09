@@ -90,6 +90,43 @@
       <crew role="service" exact="2"/>
     </crew>
   </loadout>
+  <loadout id="player_1707507915" name="Explorer" description="" macro="ship_par_m_trans_container_03_a_macro" player="1">
+    <patches>
+      <patch extension="ego_dlc_split" version="620" name="Split Vendetta"/>
+    </patches>
+    <macros>
+      <engine macro="engine_spl_m_travel_01_mk3_macro" path="../con_engine_01"/>
+      <weapon macro="weapon_gen_m_shotgun_01_mk2_macro" path="../con_weapon_03" weaponmode="defend"/>
+      <weapon macro="weapon_gen_m_shotgun_01_mk2_macro" path="../con_weapon_02" weaponmode="defend"/>
+      <weapon macro="weapon_gen_m_shotgun_01_mk2_macro" path="../con_weapon_01" weaponmode="defend"/>
+      <shield macro="shield_tel_m_standard_01_mk2_macro" path="../con_shield_01"/>
+      <shield macro="shield_tel_m_standard_01_mk2_macro" path="../con_shield_02"/>
+      <turret macro="turret_arg_m_flak_01_mk1_macro" path="../con_turret_03" weaponmode="defend"/>
+      <turret macro="turret_arg_m_flak_01_mk1_macro" path="../con_turret_02" weaponmode="defend"/>
+      <turret macro="turret_arg_m_flak_01_mk1_macro" path="../con_turret_01" weaponmode="defend"/>
+    </macros>
+    <ammunition>
+      <ammunition macro="env_deco_nav_beacon_t1_macro" exact="10"/>
+      <ammunition macro="eq_arg_satellite_01_macro" exact="10"/>
+      <ammunition macro="eq_arg_resourceprobe_01_macro" exact="10"/>
+      <ammunition macro="weapon_gen_mine_01_macro" exact="8"/>
+    </ammunition>
+    <software>
+      <software ware="software_dockmk2"/>
+      <software ware="software_flightassistmk1"/>
+      <software ware="software_scannerlongrangemk2"/>
+      <software ware="software_scannerobjectmk1"/>
+      <software ware="software_targetmk1"/>
+      <software ware="software_trademk1"/>
+    </software>
+    <virtualmacros>
+      <thruster macro="thruster_gen_m_allround_01_mk3_macro"/>
+    </virtualmacros>
+    <crew>
+      <crew role="marine" exact="3"/>
+      <crew role="service" exact="9"/>
+    </crew>
+  </loadout>
   <loadout id="player_1681527645" name="Стандарт+" description="" macro="ship_gen_m_tugboat_01_a_macro" player="1">
     <macros>
       <engine macro="engine_par_m_allround_01_mk2_macro" path="../con_engine_03"/>
