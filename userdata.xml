@@ -19,4 +19,8 @@
   <known_timeline_unlock>2</known_timeline_unlock>
   <timeline_terran_conflict>1</timeline_terran_conflict>
   <story_hq_boso>1</story_hq_boso>
+  <story_research_mod_engine_mk1>1</story_research_mod_engine_mk1>
+  <story_research_mod_shield_mk1>1</story_research_mod_shield_mk1>
+  <story_research_mod_ship_mk1>1</story_research_mod_ship_mk1>
+  <story_research_mod_weapon_mk1>1</story_research_mod_weapon_mk1>
 </root>

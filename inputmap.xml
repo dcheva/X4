@@ -27,8 +27,9 @@
     <param name="sensitivity_vr_mouse_pitch" value="0.50"/>
     <param name="deadzone" value="0"/>
     <param name="stick_steering_adaptive" value="false"/>
-    <param name="mouse_steering_adaptive" value="true"/>
+    <param name="mouse_steering_adaptive" value="false"/>
     <param name="yaw_into_roll" value="0"/>
+    <param name="bidirectionalthrottle" value="true"/>
   </config>
   <!-- input actions -->
   <action id="INPUT_ACTION_MOUSEDBLCLICK" source="INPUT_SOURCE_MOUSEBUTTONS" code="INPUT_MOUSEBUTTON_LEFT_DOUBLECLICK"/>

@@ -3,21 +3,21 @@
   <!-- graphic options -->
   <fullscreen>false</fullscreen>
   <borderless>true</borderless>
-  <antialiasing>fxaa_high</antialiasing>
+  <antialiasing>none</antialiasing>
   <upmode>none</upmode>
-  <presentmode>immediate</presentmode>
+  <presentmode>fifo_relaxed</presentmode>
   <colorcorrection>0</colorcorrection>
   <gamma>1.00</gamma>
   <capturehq>false</capturehq>
-  <gfxquality>0</gfxquality>
+  <gfxquality>3</gfxquality>
   <!-- high gfx preset -->
   <shaderquality>2</shaderquality>
   <shadows>2</shadows>
   <softshadows>true</softshadows>
-  <ssao>1</ssao>
-  <glow>1</glow>
-  <lodfactor>1.00</lodfactor>
-  <effectdistance>1.00</effectdistance>
+  <ssao>2</ssao>
+  <glow>3</glow>
+  <lodfactor>0.70</lodfactor>
+  <effectdistance>0.70</effectdistance>
   <distortion>true</distortion>
   <disableradar>false</disableradar>
   <radarquality>1</radarquality>
@@ -25,9 +25,9 @@
   <ssrquality>low</ssrquality>
   <texturequality>high</texturequality>
   <chromaticaberration>true</chromaticaberration>
-  <volumetric>1</volumetric>
+  <volumetric>2</volumetric>
   <pom>high</pom>
-  <envmapprobes>low</envmapprobes>
+  <envmapprobes>high</envmapprobes>
   <envmapinsideglassfactor>1.0</envmapinsideglassfactor>
   <!-- sound options -->
   <nosound>false</nosound>
@@ -71,7 +71,7 @@
   <tobiigazefilterstrength>30</tobiigazefilterstrength>
   <!-- online options -->
   <showvisitornames>false</showvisitornames>
-  <highlightvisitors>true</highlightvisitors>
+  <highlightvisitors>false</highlightvisitors>
   <!-- privacy options -->
   <sendcrashreports>true</sendcrashreports>
   <!-- accessibility options -->
@@ -85,4 +85,5 @@
   <res_height>1080</res_height>
   <enemywarning_nearby>ui_notification_player_alert_07</enemywarning_nearby>
   <enemywarning_attack>ui_notification_player_alert_08</enemywarning_attack>
+  <persistentmousesteering>true</persistentmousesteering>
 </root>
