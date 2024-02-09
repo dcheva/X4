@@ -4,8 +4,8 @@
   <known_sector>25</known_sector>
   <relation_ceremony_10>1</relation_ceremony_10>
   <relation_ceremony_20>1</relation_ceremony_20>
-  <people_crew_count>15</people_crew_count>
-  <money_boughtship_m>3</money_boughtship_m>
+  <people_crew_count>297</people_crew_count>
+  <money_boughtship_m>7</money_boughtship_m>
   <money_tradeamount_100k>1</money_tradeamount_100k>
   <people_pilot_5star_onload>2</people_pilot_5star_onload>
   <unlock_x4gamestart_boso>0</unlock_x4gamestart_boso>
@@ -23,4 +23,7 @@
   <story_research_mod_shield_mk1>1</story_research_mod_shield_mk1>
   <story_research_mod_ship_mk1>1</story_research_mod_ship_mk1>
   <story_research_mod_weapon_mk1>1</story_research_mod_weapon_mk1>
+  <money_builtmodule_dock>1</money_builtmodule_dock>
+  <money_builtmodule_production>1</money_builtmodule_production>
+  <money_boughtship_xl>1</money_boughtship_xl>
 </root>
